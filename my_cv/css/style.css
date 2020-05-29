@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #0475ba;
+    align-items: center;
+    height: 70px;
+    
+}
+
+nav h2 {
+    margin: 0;
+    color: white;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+nav ul {
+    display: none;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    nav ul {
+        display: flex;
+    }
+
+    header .content {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .content {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    footer {
+        display: flex;
+    }
+
+}
+
+header {
+    text-align: center;
+    margin: 40px;
+    
+}
+
+header img {
+    width: 150px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 6px rgb(170, 170, 170);
+}
+
+header, section, footer {
+    padding: 40px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+.secondary-block {
+    background-color: #0475ba;
+    color: white;
+    margin-top: 0;
+    padding-top: 15px;
+    padding: 40px;
+}
+
+#profil ul {
+    list-style: disc;
+    padding-left: 15px;
+}
+
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-header h4 {
+    margin-top: 0;
+}
+
+#formation li {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    padding: 25px;
+}
